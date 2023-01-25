@@ -12,7 +12,7 @@ ctx.fillText('Hello XR',50,50);
 const engine = new Engine(canvas, true);
 
 const app = new App(engine,canvas);
-const scene = app.createScene();
+const scene = app.createXRScene();
 /*engine.runRenderLoop( () => {
     scene.render();    
 });*/

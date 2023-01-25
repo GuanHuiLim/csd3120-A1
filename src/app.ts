@@ -11,7 +11,7 @@ export class App{
         console.log('app ts is running!!');
     }
 
-    async createScene(){
+    async createXRScene(){
         const scene = new Scene(this.engine);
         scene.createDefaultCameraOrLight();
 
@@ -34,6 +34,7 @@ export class App{
         const xr = await scene.createDefaultXRExperienceAsync({
             uiOptions: {
                 sessionMode: 'immersive-vr'
+                //sessionMode: 'immersive-ar'
             }
         });
 
@@ -43,4 +44,5 @@ export class App{
 
         return scene;
     }
+
 }
