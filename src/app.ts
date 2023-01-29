@@ -11,7 +11,8 @@ export class App{
         console.log('app ts is running!!');
     }
 
-    async createXRScene(){
+    async createXRScene(canvasID : string, 
+        authoringData: {[dataType: string]: {[key:string]: any}}){
         const scene = new Scene(this.engine);
         scene.createDefaultCameraOrLight();
 
@@ -26,7 +27,7 @@ export class App{
         const helloUI = AdvancedDynamicTexture.CreateForMesh(helloPlane);
         
         const helloText = new TextBlock('hello');
-        helloText.text = 'Unlearn Unlearn Unlearn';
+        helloText.text = 'Hello XR';
         helloText.color = 'blue';
         helloText.fontSize = 25;
         helloUI.addControl(helloText);
