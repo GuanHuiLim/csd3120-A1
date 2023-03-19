@@ -122,7 +122,7 @@ Credits to : [De-Panther](https://github.com/De-Panther), [ExtendRealityLtd](h
 
 ---
 
-The player must pick up the sword with the left hand and slice the are you ready plane to begin. 
+The player must pick up the sword with the left hand(use mouse and click and drag if not using VR device) and slice the are you ready plane to begin. 
 
 ![Untitled](README%202f512c48407a47e1a47526e25a39ccbe/Untitled%201.png)
 
