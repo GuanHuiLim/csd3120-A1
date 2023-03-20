@@ -49,7 +49,7 @@ Credits to : [De-Panther](https://github.com/De-Panther), [ExtendRealityLtd](h
     
     - Requires : Unity 2021.3.20f1 (other versions may be incompatible)
     - A page to host the product after build.
-    - you can find the scene under IPA-B\Assets\Samples\WebXR Interactions\0.16.3-preview\Sample Scene\Scenes. the name of the scene is called Desert
+    - you can find the scene under Project\Assets\Samples\WebXR Interactions\0.16.3-preview\Sample Scene\Scenes. the name of the scene is called Desert
     - open the scene and you can test it in unity
     - Important: Ensure the scene is included in the build list or nothing will play
     
@@ -115,7 +115,7 @@ Credits to : [De-Panther](https://github.com/De-Panther), [ExtendRealityLtd](h
         
         check your github actions and ensure build is done. you can click on the link to play
         
-        ![Untitled](README%202f512c48407a47e1a47526e25a39ccbe/Untitled.png)
+        ![https://github.com/GuanHuiLim/csd3120-IPA/raw/working/Images/deploy.png](https://github.com/GuanHuiLim/csd3120-IPA/raw/working/Images/deploy.png)
         
 
 ### How to play:
@@ -124,7 +124,7 @@ Credits to : [De-Panther](https://github.com/De-Panther), [ExtendRealityLtd](h
 
 The player must pick up the sword with the left hand(use mouse and click and drag if not using VR device) and slice the are you ready plane to begin. 
 
-![Untitled](README%202f512c48407a47e1a47526e25a39ccbe/Untitled%201.png)
+![https://github.com/GuanHuiLim/csd3120-IPA/raw/working/Images/ready.png](https://github.com/GuanHuiLim/csd3120-IPA/raw/working/Images/ready.png)
 
 Objects will spawn and start flying at the player and player must use the sword to cut them down. There is no end to the game as of now.
 
